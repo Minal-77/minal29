@@ -1,0 +1,18 @@
+apiVersion: v1
+kind: pod
+metadata:
+         "name": minal
+spec: 
+          containers: 
+                  -image: nginx:latest
+                    name: nginxpod
+                         resources: 
+                         request: 
+                          cpu: "500m"
+                          memory: "128Mi"
+                  port:
+                      -name: http
+                       containerPort: 80
+                       protocol: TCP         
+                      
+                           
