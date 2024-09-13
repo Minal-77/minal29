@@ -4,8 +4,8 @@ metadata:
          "name": minal
 spec: 
           containers: 
-                  -image: nginx:latest
-                    name: nginxpod
+                  -image: tomcat:latest
+                    name: tomcatpod
                          resources: 
                          request: 
                           cpu: "500m"
