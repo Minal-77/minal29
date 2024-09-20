@@ -3,7 +3,7 @@ apiVersion: v1
 #as per the apiversion library , it ensures the creation of object as well.
 kind: Pod 
 metadata: 
-        "name": anup
+        "name": minal
 spec: 
     containers:
           - image: nginx:latest
