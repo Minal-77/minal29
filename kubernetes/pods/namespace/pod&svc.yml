@@ -2,7 +2,7 @@ apiVersion: v1
 kind: Pod
 metadata:
         name: nginxappdev
-        namespace: devnamespacenginxapp
+        namespace: nginxnamespace
         labels:
             app: nginxappdev
 spec:
@@ -22,7 +22,7 @@ apiVersion: v1
 kind:  Service
 metadata:
       name: nodeportdev
-      namespace: devnamespacenginxapp
+      namespace: nginxnamespace   
 spec:
     selector:
         app:  nginxappdev
