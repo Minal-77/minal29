@@ -5,7 +5,7 @@ metadata:
   labels:
       app: deployapp
 spec:
-    replicas: 2     #desiredstate
+    replicas: 4     #desiredstate
     strategy: 
           type: RollingUpdate
     selector: 
