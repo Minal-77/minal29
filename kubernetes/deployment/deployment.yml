@@ -10,7 +10,7 @@ spec:
           type: RollingUpdate
           rollingUpdate:
             maxSurge: 2   # Maximum number of pods that can be created over the desired replicas
-            maxUnavailable: 2  # Maximum number of pods that can be unavailable during the update 
+            maxUnavailable: 2  # Maximum number of pods that can be unavailable during the updates
     selector:
           matchLabels:
               app: nginxapp
